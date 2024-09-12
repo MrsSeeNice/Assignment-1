@@ -1,0 +1,66 @@
+body {
+    
+    background-color:darkgreen ;
+    font-size: 25px;
+}
+
+.headernavigation { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading-container1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile-image {
+    width: 230px;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 50%;
+}
+
+
+h1 {
+    border: 5px dotted red;
+    background-color: aliceblue;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+    width: 500px;
+    background-color: lightslategrey;
+    background-image: url(../images/background.jpg);
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: square;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+ol {
+    list-style: square;
+    text-align: center;
+}
+
+li {
+    list-style: square;
+    text-align: center;
+}
+
+
+.heading-container1 {
+    text-align: center;
+    border: 3px solid black;
+    background-color: lightgray;
+}
